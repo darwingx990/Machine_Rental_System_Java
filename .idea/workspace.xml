@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dad6712-bae8-4a31-acd6-5915d1327025" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/riwi/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/riwi/persistence/database/ConfigDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/riwi/models/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/riwi/models/Rental.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/riwi/models/machines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732276187658</updated>
       <workItem from="1732276189095" duration="246000" />
-      <workItem from="1732276613981" duration="1281000" />
+      <workItem from="1732276613981" duration="6735000" />
     </task>
     <servers />
   </component>
