@@ -1,5 +1,7 @@
 package io.riwi;
 
+import io.riwi.controllers.ClientController;
+import io.riwi.persistence.DAO.ClientDao;
 import io.riwi.persistence.database.ConfigDB;
 
 import java.util.Scanner;
@@ -10,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
 
         ConfigDB.openConnection();
-
+        ClientController clientControlle = new ClientController();
         Scanner sc = new Scanner(System.in);
         int opcion;
         do {
@@ -21,7 +23,8 @@ public class Main {
             opcion = sc.nextInt();
             switch (opcion) {
                 case 1:
-                    // Lógica para registrar cliente
+                    clientControlle;
+
                     break;
                 case 2:
                     // Lógica para consultar clientes
