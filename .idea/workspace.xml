@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dad6712-bae8-4a31-acd6-5915d1327025" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/riwi/models/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/riwi/models/Rental.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/riwi/models/machines.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/riwi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/riwi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/riwi/persistence/DAO/ClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/riwi/persistence/DAO/ClientDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,11 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/darwi/OneDrive - Univerisidad ECCI/ONE - Oracle Next Education/Back-end JAVA/Java SE/Machine_Rental_System/src/main/java/io/riwi/Main.java",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,11 +77,22 @@
       <option name="presentableId" value="Default" />
       <updated>1732276187658</updated>
       <workItem from="1732276189095" duration="246000" />
-      <workItem from="1732276613981" duration="6735000" />
+      <workItem from="1732276613981" duration="9811000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

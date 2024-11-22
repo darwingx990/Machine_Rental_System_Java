@@ -2,22 +2,34 @@ package io.riwi;
 
 import io.riwi.persistence.database.ConfigDB;
 
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
         ConfigDB.openConnection();
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
-ConfigDB.closeConnection();
+        Scanner sc = new Scanner(System.in);
+        int opcion;
+        do {
+            System.out.println("1. Registrar cliente");
+            System.out.println("2. Consultar clientes");
+            System.out.println("3. Salir");
+            System.out.print("Elija una opción: ");
+            opcion = sc.nextInt();
+            switch (opcion) {
+                case 1:
+                    // Lógica para registrar cliente
+                    break;
+                case 2:
+                    // Lógica para consultar clientes
+                    break;
+            }
+        } while (opcion != 3);
+
+        ConfigDB.closeConnection();
 
 
     }
